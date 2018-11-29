@@ -1,0 +1,679 @@
+/*font-family: 'Sniglet', cursive*/
+/*font-family: 'Dosis', sans-serif;*/
+/*font-family: 'Lato', sans-serif;*/
+body{
+    font-family: 'Dosis', sans-serif;
+    background-image: url(../images/bg.png);
+}
+/*header start*/
+header{
+    background-color: #ffd338;
+}
+..img-custom{}
+.custom_nav{}
+.custom_nav ul li a{
+    color:white !important;
+    padding: 4px 20px !important;
+    font-size: 18px;
+    font-weight: 700;
+    transition: .4s;
+    border-radius: 20px;
+}
+.custom_nav ul li a:hover{
+    background-color: #F05C5C;
+}
+.custom_a{
+    color: white;
+}
+.custom_icon{
+    color: white;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_content{
+    margin-top: 370px;
+
+}
+.banner_content h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #1EC0FF;
+}
+.scroll{
+    margin-top: 210px;
+    margin-bottom: 15px;
+}
+.scroll p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #D6D6D6;
+}
+.long-custom{
+    color: #D6D6D6;
+
+}
+/*banner end*/
+/*kid1 start*/
+.kid1{
+    padding: 90px 0;
+}
+.comon_title{
+    margin-bottom: 50px;
+}
+.comon_title h1{
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.comon_title hr{
+    width: 250px;
+    border:none;
+    border-bottom: 5px dashed white;
+}
+.school{}
+.school h2{
+    font-weight: 700;
+    font-size: 24px;
+}
+.school hr{
+    width: 170px;
+    border:none;
+    border-bottom: 2px solid #a9a9a9;
+    margin-left: 0;
+}
+.school p{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.school_img{}
+.school_img img{
+    border-radius: 10px;
+}
+/*kid1 end*/
+/*kid2 start*/
+.kid2{
+    background-image: url(../images/kid2bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 90px 0;
+}
+.kid2_content{}
+.kid2_content img{
+    transition: .4s;
+    position: relative;
+}
+.kid2-img2 {
+    position: absolute;
+    top: 7px;
+    left: 93px;
+}
+.kid2_content img:hover{
+    transform: scale(1.2);
+}
+.kid2_content p{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+
+}
+/*kid2 end*/
+/*courses start*/
+.courses{
+    padding: 90px 0;
+}
+.courses_title{}
+.courses_title h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #333333;
+}
+.courses_title img{}
+/*courses end*/
+/*card strat*/
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+.custom-card-header {
+    background-color: #1ec0ff;
+}
+.custom-card-header time {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.custom-card-header2{
+    background-color: #56D47E;
+}
+.custom-card-header2 time {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: white;
+}
+.custom-card-header3{
+    background-color: #F05C5C;
+}
+.custom-card-header3 time {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: white;
+}
+.custom-card-header4{
+    background-color: #FFD338;
+}
+.custom-card-header4 time {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2857em;
+    font-family: 'Dosis', sans-serif;
+    transition: .4s;
+}
+.card-title:hover{
+    color: #1EC0FF;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    font-size: 16px;
+    font-weight: 400;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color:#333333;
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+    font-family: 'Dosis', sans-serif;
+}
+.profile {
+    position: absolute;
+    top: -25px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    border-radius: 50%;
+    right: 10px;
+
+}
+
+.profile-avatar {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.meta {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 300;
+}
+
+.meta a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .4);
+}
+.meta a:hover {
+    color: rgba(0, 0, 0, .87);
+}
+.button {
+    margin-top: 40px;
+    background-color: #56d47e;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+/*card end*/
+/*Memorable Moments strat*/
+.Memorable{
+    background-image: url(../images/MemorableMomentsbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 90px 0;
+
+}
+.memorable_img{}
+.custom-memorable{
+    border-radius: 20px;
+    margin-bottom: 15px;
+
+}
+.memorable-button{
+    margin-top: 40px;
+}
+/*Memorable Moments end*/
+/*stand strat*/
+.stand{
+    margin-bottom: 20px;
+}
+.stand-content {
+    padding: 80px 0;
+}
+.stand-icon i {
+    color: #1ec0ff;
+    font-size: 40px;
+}
+.stand-content p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+.stand-icon p {
+    color: #1ec0ff;
+}
+.stand-content span {
+    color: #1ec0ff;
+}
+/*stand end*/
+/*teacher start*/
+.teacher-img{
+    margin-bottom: 20px;
+}
+.custom-teacher-img {
+    border-radius: 25px;
+}
+.teacher-content{}
+.teacher-content h4{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #66CDFB;
+}
+.teacher-content p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+.teacher-content i {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.teacher-content span{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/*teacher end*/
+/*teaching strat*/
+.teaching{
+    background-image: url(../images/1920-430.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+}
+.teaching-img{}
+.teaching-img img{}
+.teaching-content{
+    margin-top: 15px;
+}
+.teaching-content h5{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+/*teaching end*/
+/*Timeline strat*/
+.Timeline{
+    padding: 80px 0;
+}
+.Timeline_title{
+    margin-bottom: 50px;
+}
+.Timeline_title h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #333333;
+
+}
+.Timeline_title hr{
+    width: 250px;
+    border:none;
+    border-bottom: 5px dashed white;
+    margin-left: 0;
+    color: white;
+}
+
+.round{
+    background-color: #1EC0FF;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+.round h4{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.round p{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+.round2{
+    background-color: #56D47E;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+.round2 h4{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.round2 p{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+.round3{
+    background-color: #FFD338;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+.round3 h4{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.round3 p{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+.round4{
+    background-color: #F05C5C;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+.round4 h4{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.round4 p{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+.art{
+    margin-top: 22px;
+}
+.art h5{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.art p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+.art i{
+    color: #1EC0FF;
+}
+.art span{
+    color: #1EC0FF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.art a{
+    color: #FA9940;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+}
+.p_r_0{
+    padding-right: 0;
+}
+.m-b-event{
+    margin-bottom: 25px;
+}
+/*Timeline end*/
+/*recent news strat*/
+.recent-img{}
+.recent-img img{
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.recent-content{}
+.recent-content h3{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.recent-content hr{
+    width: 300px;
+    border:none;
+    border-bottom: 3px dashed #1EC0FF;
+}
+.recent-content i{}
+.recent-content p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+/*recent news end*/
+/*about strat*/
+.about-us{
+    background-image: url(../images/aboutus.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0;
+}
+.giraffe {
+    margin-top: 200px;
+}
+.ft-img-con {
+    text-align: left;
+}
+.text-left {
+    text-align: left !important;
+}
+.giraffe p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+.giraffe ul {
+    padding-left: 0;
+}
+.giraffe ul li {
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    font-size: 14px;
+}
+.giraffe ul li i {
+    color: #1ec0ff;
+}
+.instagram_hr {
+    margin-top: 200px;
+}
+.instagram_hr h5{
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffc852;
+}
+.instagram_hr hr {
+    border: none;
+    border-bottom: 3px dashed #ffc852;
+    width: 180px;
+    margin-left: 0;
+}
+.insta-img {
+    margin-bottom: 20px;
+}
+.insta-img img{
+    border-radius: 5px;
+}
+.contact {
+    margin-top: 200px;
+}
+.contact h5 {
+    color: #56d47e;
+    font-size: 24px;
+    font-weight: 700;
+}
+.contact hr {
+    border: none;
+    border-bottom: 3px dashed #56d47e;
+    width: 180px;
+    margin-left: 0;
+}
+.contact ul {
+    padding-left: 0;
+}
+.contact ul li {
+    list-style: none;
+}
+.contact ul li p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+.contact ul li i {
+    color: #dfdfdf;
+    margin-right: 8px;
+}
+.sign-up {
+    margin-top: 200px;
+}
+.sign-up h5 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f05c5c;
+}
+.sign-up hr {
+    border: none;
+    border-bottom: 3px dashed #f05c5c;
+    width: 180px;
+    margin-left: 0;
+}
+.custom-form {
+    position: relative;
+}
+.sign-up label {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.custom-input {
+    border: none; 
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 0 1px black;
+}
+.send-icon {
+    position: absolute;
+    right: 10px;
+    bottom: -10px;
+    color: #e1e1e1;
+}
+.last-icon {
+    margin-top: 20px;
+}
+.custom-icon2 {
+    color: #e1e1e1;
+    padding-right: 10px;
+}
+/*about end*/
+/*footer strat*/
+.footer {
+    background-color: #ffd338;
+    padding: 30px 0 7px 0;
+}
+.footer ul li a {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.footer ul li {
+    color: white;
+}
+.text-center {
+    text-align: center !important;
+}
+.copyright p {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+/*footer strat*/

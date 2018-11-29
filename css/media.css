@@ -1,0 +1,90 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .img-custom{
+        max-width: 160px;
+        height: 60px;
+    }
+    .custom_icon{
+    color: white;
+    margin-left: 15px;
+}
+.banner_content {
+    margin-top: 50px;
+}
+.scroll {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.kid2-img2 {
+    position: absolute;
+    top: 7px;
+    left: 162px;
+}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .kid2-img2 {
+    position: absolute;
+    top: 7px;
+    left: 162px;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .custom_nav ul li a{
+    color:white !important;
+   /* padding: 4px 20px !important;*/
+    font-size: 18px;
+    font-weight: 700;
+    transition: .4s;
+    border-radius: 20px;
+}
+    .custom_icon{
+    color: white;
+    margin-left: 15px;
+}
+.banner_content {
+    margin-top: 130px;
+}
+.scroll {
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+.kid2-img2 {
+    position: absolute;
+    top: 7px;
+    left: 42px;
+}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner_content {
+    margin-top: 210px;
+}
+.kid2-img2 {
+    position: absolute;
+    top: 7px;
+    left: 70px;
+}
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .banner_content{
+    margin-top: 370px;
+
+}
+.scroll{
+    margin-top: 210px;
+    margin-bottom: 15px;
+}
+.kid2-img2 {
+    position: absolute;
+    top: 7px;
+    left: 93px;
+}
+}
